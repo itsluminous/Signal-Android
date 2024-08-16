@@ -19,7 +19,7 @@ object V229_MarkMissedCallEventsNotified : SignalDatabaseMigration {
       """
       UPDATE message
       SET notified = 1
-      WHERE type = 998
+      WHERE type = 997
       """.trimIndent()
     )
   }
